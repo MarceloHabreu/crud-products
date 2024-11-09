@@ -8,12 +8,12 @@ Este é um projeto de API RESTful desenvolvido com Spring Boot para a criação,
 
 ## Tecnologias
 
-- **Java 17** (ou versão compatível)
+- **Java 17** 
 - **Spring Boot**
 - **Spring Security** (para autenticação e controle de permissões)
 - **Spring Data JPA** (para interações com o banco de dados)
-- **MySQL** (ou outro banco de dados relacional)
-- **Maven** (ou Gradle) para gerenciamento de dependências
+- **MySQL** ( banco de dados relacional)
+- **Maven** para gerenciamento de dependências
 
 ## Diagrama de Relacionamento
 
