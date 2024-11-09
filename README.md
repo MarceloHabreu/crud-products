@@ -29,7 +29,7 @@ erDiagram
     }
     
     CATEGORIES {
-        INT id PK
+        UUID id PK
         VARCHAR name "unique"
     }
     
@@ -41,7 +41,7 @@ erDiagram
         TIMESTAMP created_at
         TIMESTAMP updated_at
         UUID created_by FK
-        INT category_id FK
+        UUID category_id FK
     }
 
     USERS ||--o{ PRODUCTS : "criou"
