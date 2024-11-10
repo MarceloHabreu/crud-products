@@ -42,10 +42,15 @@ public class Product {
     // Constructors
     public Product() {}
 
-    public Product(UUID uuid, @NotBlank String name, @NotBlank String description, @Positive double price, Instant now, ProductRequestDTO data) {
-        this.name = data.name();
-        this.description = data.description();
-        this.price = data.price();
+    public Product(UUID id, String name, String description, double price, User created_by, Category category, Instant created_at, Instant updated_at) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.category = category;
+        this.created_by = created_by;
+        this.created_at = created_at;
+        this.updated_at = updated_at;
     }
 
     public UUID getId() {
